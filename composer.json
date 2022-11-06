@@ -1,0 +1,25 @@
+{
+    "name": "klausveliu/i18n",
+    "type": "library",    
+    "description": "PHP Internationalization",
+    "homepage": "https://github.com/klausveliu/i18n",    
+    "keywords": ["internationalization", "i18n", "PHP"],        
+    "license": "MIT",
+    "authors": [
+    		{
+            "name": "Philipp15b",
+            "email": "github@philworld.de",
+            "role": "developer"
+        },
+        {
+            "name": "Klaus Veliu",
+            "role": "Developer"
+        }
+    ],    
+    "require": {
+        "mustangostang/spyc": "0.5.*@dev"
+    },
+    "autoload": {
+        "files": ["src/i18n.php"]
+    }
+}
